@@ -6,9 +6,8 @@ def nyc_pigeon_organizer(data)
        if !updated_hash[names]
          updated_hash[names] = {}
         # p "This is #{key2}"
-         updated_hash[names][key] = "#{key2}"
        else
-         updated_hash[name][key].push("hi")
+    
              #  p "This is #{key2}"
             if !updated_hash[names][key]
               # p "FINAL is #{key2}"
